@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="REST_API_FILE_UPLOAD">
+<body>
+
+<h1>Rest API to upload file</h1>
+
+<form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+    <input type="file" name="files"/><br/><br/>
+    <input type="submit" value="Submit" id="uploadBtn"/>
+</form>
+
+<h1>Upload Result</h1>
+<pre>
+    <span id="result"></span>
+</pre>
+
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
